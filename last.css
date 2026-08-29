@@ -13,6 +13,7 @@ body{
 #top{
     place-items: center;
     font-size: 80px;
+    z-index: 1;
 }
 #main{
     place-items: center;
