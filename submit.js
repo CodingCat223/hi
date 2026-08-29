@@ -33,5 +33,4 @@ form.addEventListener('submit', function(event) {
     localStorage.setItem("pTense", pTense);
     localStorage.setItem("jobType", jobType);
     localStorage.setItem("transpoType", transpoType);
-
-    document.getElementById('result').innerHTML = `Hello ${nAme}! Today is a ${adj} day. Let's ${vErb} with ${things} and enjoy some ${food}.`;
+}
