@@ -61,3 +61,9 @@ body{
         opacity: 0;
     }
 }
+.mt p{
+    font-size: 15px;
+    border: 2px solid #66D0E7;
+    background-color: #fdeab7;
+    border-radius: 20px;
+}
