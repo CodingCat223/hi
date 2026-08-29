@@ -33,4 +33,5 @@ form.addEventListener('submit', function(event) {
     localStorage.setItem("pTense", pTense);
     localStorage.setItem("jobType", jobType);
     localStorage.setItem("transpoType", transpoType);
+    window.location.href = "last.html";
 })
