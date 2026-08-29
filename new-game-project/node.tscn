@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://bhss2rc30pepk"]
 
 [node name="Node" type="Node" unique_id=1989898305]
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=925260698]
