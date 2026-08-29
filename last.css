@@ -1,52 +1,63 @@
-body {
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color:#fdeab7;
     margin: 0;
-    background-color: rgb(2, 18, 57);
+    font-family: "Faculty Glyphic", sans-serif;
+    color: #afe1e3;
 }
-
-/* Holds the image and button together */
-#p1 {
+#top{
+    place-items: center;
+    font-size: 80px;
+}
+#main{
+    place-items: center;
+    font-size: 30px;
+    transform: translateY(-125px);
+}
+#re{
+    border: solid #66D0E7 1px;
+    background-color: #89979e;
+    transform: translate(550px,-100px);
+    border-radius: 15px;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.plane {
+    position: fixed;
+    width: 80px;
+    animation-name: shoot;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.plane img{
+    width: 150%;
     position: relative;
-    width: 100%;
-    height: 100vh;
+    z-index: -1;
 }
-
-/* Main image */
-#b {
-    width: 100%;
-    height: 100vh;
-    object-fit: contain;
-    display: block;
-}
-
-/* START button */
-#but {
+.plane::before{
+    content: "";
     position: absolute;
-    left: 50%;
-    bottom: 15%;
-    transform: translateX(-50%);
-
-    background-color: #f8dce5;
-    color: #5d6575;
-
-    padding: 14px 35px;
-
-    border: 2px solid white;
-    border-radius: 30px;
-
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-
-    text-decoration: none;
-    cursor: pointer;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-
-    transition: 0.3s;
+    right: 25px;
+    top: 50%;
+    width: 140px;
+    height: 15px;
+    transform: translateY(-50%);
+    background: linear-gradient(to left, #89979e, transparent);
+    filter: blur(6px);
 }
 
-/* Makes the button slightly bigger when you hover */
-#but:hover {
-    transform: translateX(-50%) scale(1.08);
-    background-color: white;
+@keyframes shoot{
+    from{
+        transform: translate(0,0);
+        opacity: 0.7;
+    }
+    to{
+        transform: translate(110vw,20vh);
+        opacity: 0;
+    }
 }
