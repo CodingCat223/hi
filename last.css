@@ -1,40 +1,16 @@
-<<<<<<< Updated upstream
-.faculty-glyphic-regular {
-  font-family: "Faculty Glyphic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-body{
-    background-color:#fdeab7;
-    margin: 0;
-    font-family: "Faculty Glyphic", sans-serif;
-    color: #afe1e3;
-}
-#top{
-    place-items: center;
-    font-size: 80px;
-}
-#main{
-    place-items: center;
-    font-size: 30px;
-    transform: translateY(-125px);
-}
-#re{
-    border: solid #66D0E7 1px;
-    background-color: #FFC7B2;
-    transform: translate(550px,-250px);
-    border-radius: 15px;
-    font-family: "Faculty Glyphic", sans-serif;
-=======
-
-
-
 body {
     margin: 0;
     background-color: rgb(2, 18, 57);
 }
 
+/* Holds the image and button together */
+#p1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Main image */
 #b {
     width: 100%;
     height: 100vh;
@@ -42,10 +18,7 @@ body {
     display: block;
 }
 
-#p1 {
-    position: relative;
-}
-
+/* START button */
 #but {
     position: absolute;
     left: 50%;
@@ -56,8 +29,9 @@ body {
     color: #5d6575;
 
     padding: 14px 35px;
-    border-radius: 30px;
+
     border: 2px solid white;
+    border-radius: 30px;
 
     font-family: Arial, sans-serif;
     font-size: 18px;
@@ -71,8 +45,8 @@ body {
     transition: 0.3s;
 }
 
+/* Makes the button slightly bigger when you hover */
 #but:hover {
     transform: translateX(-50%) scale(1.08);
     background-color: white;
->>>>>>> Stashed changes
 }
