@@ -9,3 +9,40 @@ for (let i = 0; i < 4; i++) {
     plane.style.animationDuration = (3 + Math.random() * 2) + "s";
     document.body.appendChild(plane);
 }
+const nAme = localStorage.getItem("nAme");
+const adj = localStorage.getItem("adj");
+const vErb = localStorage.getItem("vErb");
+const things = localStorage.getItem("things");
+const food = localStorage.getItem("food");
+const Anml = localStorage.getItem("Anml");
+const nNoun = localStorage.getItem("nNoun");
+const cOlour = localStorage.getItem("cOlour");
+const aGe = localStorage.getItem("aGe");
+const dEstination = localStorage.getItem("dEstination");
+const nPlural = localStorage.getItem("nPlural");
+const cAsia = localStorage.getItem("cAsia");
+const pTense = localStorage.getItem("pTense");
+const jobType = localStorage.getItem("jobType");
+const transpoType = localStorage.getItem("transpoType");
+
+document.getElementById("story").innerHTML = `
+    ${nAme}
+    ${adj}
+    ${vErb}
+    ${things}
+    ${food}
+    ${Anml}
+    ${nNoun}
+    ${cOlour}
+    ${aGe}
+    ${dEstination}
+    ${nPlural}
+    ${cAsia}
+    ${pTense}
+    ${jobType}
+    ${transpoType}
+`;
+document.getElementById("story").innerHTML = `
+    ${nAme}'s perfect holiday plan!! first thing first is to pack a ${nNoun} very ${adj}ly.
+    Followed by ${vErb}ing out the door with a ${things}
+`;
