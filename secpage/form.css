@@ -22,7 +22,9 @@ h1{
 }
 .container > div {
   width: 250px;
+  text-align: center;
 }
+
 input{
   font-family: "Faculty Glyphic", sans-serif;
   border: solid 2px #FFC7B2;
@@ -74,4 +76,6 @@ button{
   width: auto;
   border-radius: 10px;
   padding: 5px 20px;
+  justify-content: center;
+  margin-top: 15px;
 }
