@@ -9,16 +9,17 @@ body{
     margin: 0;
     font-family: "Faculty Glyphic", sans-serif;
     color: #afe1e3;
+    text-align: center;
 }
 #top{
     place-items: center;
-    font-size: 80px;
+    font-size: 50px;
     z-index: 1;
 }
 #main{
     place-items: center;
     font-size: 30px;
-    transform: translateY(-125px);
+    padding: 1px;
 }
 #re{
     transform: translate(550px,-100px);
@@ -36,6 +37,13 @@ body{
     border-radius: 10px;
     align-items: center;
     border: #FFC7B2 3px solid;
+    margin: 25px;
+    text-align: center;
+    font-size: medium;
+    line-height: 2;
+    background-color: #afe1e3c3;
+    color: #fdeab7;
+    font-weight: 3px;
 }
 
 .plane {
