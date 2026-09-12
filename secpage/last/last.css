@@ -5,6 +5,7 @@
 }
 
 body{
+    display: flex;
     background-color:#fdeab7;
     margin: 0;
     font-family: "Faculty Glyphic", sans-serif;
@@ -18,8 +19,7 @@ body{
 }
 #main{
     place-items: center;
-    font-size: 30px;
-    padding: 1px;
+    font-size: 30px;   
 }
 #re{
     transform: translate(550px,-100px);
