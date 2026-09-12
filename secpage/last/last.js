@@ -25,8 +25,8 @@ const pTense = localStorage.getItem("pTense");
 const jobType = localStorage.getItem("jobType");
 const transpoType = localStorage.getItem("transpoType");
 document.getElementById("mt").innerHTML = `
-    ${nAme}'s perfect holiday plan!! first thing first is to pack a ${nNoun} very ${adj}ly.
-    Followed by ${vErb}ing out the door with ${things}.Obviously travelling at ${aGe} is crazy cool but we all gotta stop and admire the ${Anml} before your trip to ${dEstination}.
-    Going ${cAsia} next time fs thoo hopefully youre a ${jobType} by then. OKAY anyways back to the present you got your ${cOlour} suitcase in hand and some brilliant ${food} in the other as you make your way to the${transpoType}.
-    enjoy your trip!!!
+${nAme}'s perfect holiday plan!! First thing first, its time to pack a ${nNoun}, and obviously you have to do it very ${adj}ly.
+Once that's done, you're ${vErb}ing out the door with ${things} in hand. Travelling at ${aGe} is crazy cool, but before you go, you stop to admire the ${Anml} just one last time before heading to ${dEstination}.
+You're already planning on going ${cAsia} next time, and hopefully by then you'll be a ${jobType}. But for now, you've got your ${cOlour} suitcase in one hand and some brilliant ${food} in the other as you make your way to the ${transpoType}.
+And just like that youre off on youre new adventure, enjoy your trip!!!
 `;
