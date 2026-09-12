@@ -65,3 +65,11 @@ input{
       opacity: 0;
   }
 }
+button{
+  font-family: "Faculty Glyphic", sans-serif;
+  background-color: #AFE1E3;
+  border: #66D0E7 3px solid;
+  color: #FDEAB7;
+  height: auto;
+  width: auto;
+}
