@@ -79,3 +79,7 @@ button{
   justify-content: center;
   margin: 15px;
 }
+button:hover{
+  border-width: 4px;
+  box-shadow:  0 0 20px #66D0E7;
+}
