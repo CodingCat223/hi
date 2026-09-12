@@ -29,3 +29,38 @@ input{
   border-radius: 5px;
   background: #afe1e3a4;
 }
+.plane {
+    position: fixed;
+    width: 80px;
+    animation-name: shoot;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.plane img{
+    width: 150%;
+    position: relative;
+    z-index: -1;
+}
+.plane::before{
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    width: 140px;
+    height: 15px;
+    transform: translateY(-50%);
+    background: linear-gradient(to left, #89979e, transparent);
+    filter: blur(6px);
+}
+
+@keyframes shoot{
+    from{
+        transform: translate(0,0);
+        opacity: 0.7;
+    }
+    to{
+        transform: translate(110vw,20vh);
+        opacity: 0;
+    }
+}
