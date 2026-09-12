@@ -1,5 +1,5 @@
 const plcont = document.body;
-const plim = "plane.png";
+const plim = "img/plane.png";
 for (let i = 0; i < 4; i++) {
     const plane = document.createElement("div");
     plane.classList.add("plane");

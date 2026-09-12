@@ -1,5 +1,5 @@
 const plcont = document.body;
-const plim = "plane.png";
+const plim = "secpage\planecopy.png";
 for (let i = 0; i < 4; i++) {
     const plane = document.createElement("div");
     plane.classList.add("plane");
@@ -44,5 +44,5 @@ form.addEventListener('submit', function(event) {
     localStorage.setItem("pTense", pTense);
     localStorage.setItem("jobType", jobType);
     localStorage.setItem("transpoType", transpoType);
-    window.location.href = "last.html";
+    window.location.href = "last/last.html";
 })
