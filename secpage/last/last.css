@@ -21,12 +21,23 @@ body{
     transform: translateY(-125px);
 }
 #re{
-    border: solid #66D0E7 1px;
-    background-color: #89979e;
     transform: translate(550px,-100px);
-    border-radius: 15px;
     font-family: "Faculty Glyphic", sans-serif;
+    background-color: #AFE1E3;
+    border: #66D0E7 3px solid;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    padding: 5px 20px;
+    justify-content: center;
+    margin: 15px;
 }
+#mt{
+    border-radius: 10px;
+    align-items: center;
+    border: #FFC7B2 3px solid;
+}
+
 .plane {
     position: fixed;
     width: 80px;
@@ -34,6 +45,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+    z-index: -1;
 }
 .plane img{
     width: 150%;
