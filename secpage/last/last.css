@@ -92,3 +92,7 @@ body{
         opacity: 0;
     }
 }
+button:hover{
+  border-width: 4px;
+  box-shadow:  0 0 30px #FFC7B2;
+}
